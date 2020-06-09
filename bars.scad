@@ -7,20 +7,30 @@ Q=7;
 H1=7;
 HR=12;
 
-column();
-translate([15,0,0]) crossX();
-translate([30,0,0]) crossY();
+for(i=[0:1:3]) {
+    translate([i*12,0,0])
+    column();
+    translate([i*12+48,0,0])
+    crossX();
+    translate([i*12-48,0,0])
+    crossY();
+}
 
 module column() {
     difference() {
-        cube_center([H1,H+6*H1,H1]);
+        cube_center([H1,H+7*H1,H1]);
         for(s=[-1:2:1]) {
             scale([1,s,1]) {
                 translate([0,H/2+3*H1-H1/4-H1,H1/2])
                 cube_center([H1,H1/2,H1/2]);
                 translate([H1/2-H1/4,H/2+3*H1-H1/4-H1-H1/2,0])
                 cube_center([H1/2,H1/2,H1]);
+                
+                
+            translate([0,H/2+3*H1+H1/8,H1/2])
+            cube_center([H1,H1/4+0.1,H1]);
             }
+            
         }
         rotate([90,0,0])
         rotate([0,0,45])
@@ -31,11 +41,13 @@ module column() {
         rotate([0,0,45])
         cube([T*sqrt(2),T*sqrt(2),H+0.5],center=true);
         
+        /*
         for(s=[-1:2:1])
         scale([1,s,1])
         translate([0,(H+6*H1)/2-4.5/2,H1/2])
         rotate([90,0,0])
         cylinder(d=5.2,h=4.5,center=true,$fn=32);
+        */
         
     }
     
