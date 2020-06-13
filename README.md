@@ -4,6 +4,10 @@ These are mini lampshades in the [Shoji](https://en.wikipedia.org/wiki/Shoji) st
 
 ![shoji0](/images/shoji0.jpg?raw=true "shoji0")
 
+# Lighting
+
+You have multiple options for lighting. The simplest is to skip printing the base and just place the lamp over an electronic candle. (Don't use a real candle as your plastic is likely to melt, or worse, catch fire.) You can also make your own elaborate lighting setup -- the included base has a 5x5 grid of 10mm-spaced holes that you can use to screw in your PCB or other lighting design using M2.5 self-tapping plastic screws.
+
 # Filaments
 
 These are the filaments I used, if you want to duplicate the look.
@@ -32,4 +36,4 @@ When changing the colors have some tweezers handy because the printer will often
 
 # Assembly
 
-The assembly of these lanterns uses puzzle joints and needs to glue or screws.
+The assembly of these lanterns uses puzzle joints and needs no glue or screws.
