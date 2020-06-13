@@ -18,10 +18,16 @@ These are all straightforward parts to print and presented no problem on my Prus
 
 # Printing the Shoji screens
 
-Use PrusaSlicer 2.2.0 or later which allows you to insert a color change. For the screens that have no drawings, you only need white PETG (for the first layer) and one color change at the beginning of the second layer to brown PETG. For the screens with drawings, you need white for the first layer, black for the second layer, and brown for the rest of the layers.
+The Shoji screens require printing sequentially in multiple colors. You can do this with a single extruder setup and just change the color for different layer heights. The white screen is just a single layer thick, those that have drawings of e.g. bamboo or birds are in the 2nd layer in black, and the rest of the layers going up from there are the brown ("wood") only.
+
+The trickiest part of printing the screens by far is making sure your bed level and Live Adjust Z is calibrated properly, since the white screen is only a single layer thick. If you are using a Prusa, please use the 7x7 bed level correction mode present in more recent firmware as it works **much** better than 3x3.
+
+For the color changes, use PrusaSlicer 2.2.0 or later which allows you to insert a M600 color change code in the sliced layer view. For the screens that have no drawings, you only need white PETG (for the first layer) and one color change at the beginning of the second layer to brown PETG. For the screens with drawings, you need white for the first layer, black for the second layer, and brown for the rest of the layers.
 
 When changing the colors have some tweezers handy because the printer will often drip some filament just before it starts printing the first layer with the new color so be ready to catch that.
 
 ![multicolor](/images/multicolor.png?raw=true "multicolor")
 
 # Assembly
+
+The assembly of these lanterns uses puzzle joints and needs to glue or screws.
