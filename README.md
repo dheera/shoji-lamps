@@ -16,9 +16,11 @@ These are the filaments I used, if you want to duplicate the look.
 * eSun White PETG for the back of the screens. Any white PETG will do.
 * eSun Black PETG for the writing on the screens. Any black PETG will do.
 
-# Printing the roof, base, bars, and lockpins
+# Printing the roof, bars, base, and lockpins
 
-These are all straightforward parts to print and presented no problem on my Prusa i3 MK3. I **highly suggest** you set your fill angle to 0 degrees instead of 45 degrees, so that the topmost layer will print like wood grain (in PrusaSlicer: Print Settings -> Infill -> Advanced -> Fill angle). Make sure you rotate the print to the correct orientation.
+These are all straightforward parts to print and presented no problem on my Prusa i3 MK3. The roof and bars are mandatory. The base is optional, and the lockpins attach the rest of the lamp to the base, so you don't need those if you aren't printing the base.
+
+I **highly suggest** you set your fill angle to 0 degrees instead of 45 degrees, so that the topmost layer will print like wood grain (in PrusaSlicer: Print Settings -> Infill -> Advanced -> Fill angle). Make sure you rotate the print to the correct orientation.
 
 ![fill angle direction](/images/fillangledirection-goodbad.png?raw=true "fill angle direction")
 
