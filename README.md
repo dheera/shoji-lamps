@@ -39,3 +39,31 @@ When changing the colors have some tweezers handy because the printer will often
 # Assembly
 
 The assembly of these lanterns uses puzzle joints and needs no glue or screws.
+
+There are 3 types of bars: X, Y, and Z. Note that Y has a rounded section while X has a square section:
+
+![assembly0](/images/assembly0.jpg?raw=true "assembly0")
+
+Begin by placing the Z bars into the roof, allowing the angled sections to lock into the cutouts. Make sure that the slots for the Shoji screen are all facing inwards. Place two Y bars (the rounded ones!) as pictured. Although not required, you may want to orient them such that the worst-looking face of your Y bar faces outward at this point, since it will eventually be rotated to not face outwards.
+
+![assembly1](/images/assembly1.jpg?raw=true "assembly1")
+
+Now fit two X bars carefully over both the Y and Z bars, as pictured. Pay close attention to how it is in the picture. The X bar should be snap into place flush with the Z bar. Make sure it is pushed in as far as possible.
+
+![assembly2](/images/assembly2.jpg?raw=true "assembly2")
+
+Now rotate the Y bar to lock the structure into place, being careful not to break your 3D printed parts.
+
+![assembly3](/images/assembly3.jpg?raw=true "assembly3")
+
+Do the exact same for the bottom part of the lantern as well, and the structure should now be fairly rigid and ready to install the Shoji panels.
+
+![assembly4](/images/assembly4.jpg?raw=true "assembly4")
+
+The Shoji panels are best inserted from the back. They should snap into place into the grooves on the Z bars.
+
+![assembly5](/images/assembly5.jpg?raw=true "assembly5")
+
+Completed assembly.
+
+![assembly6](/images/assembly6.jpg?raw=true "assembly6")
