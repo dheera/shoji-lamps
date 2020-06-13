@@ -30,7 +30,7 @@ The Shoji screens require printing sequentially in multiple colors. You can do t
 
 The trickiest part of printing the screens by far is making sure your bed level and Live Adjust Z is calibrated properly, since the white screen is only a single layer thick, so imperfections in your Z calibration will show. If you are using a Prusa, please use the 7x7 bed level correction mode present in more recent firmware as it works **much** better than 3x3.
 
-For the color changes, use PrusaSlicer 2.2.0 or later which allows you to insert a M600 color change code in the sliced layer view. For the screens that have no drawings, you only need white PETG (for the first layer) and one color change at the beginning of the second layer to brown PETG. For the screens with drawings, you need white for the first layer, black for the second layer, and brown for the rest of the layers.
+For the color changes, use PrusaSlicer 2.2.0 or later which allows you to insert a M600 color change code in the sliced layer view. For the screens that have no drawings (i.e. no birds, bamboo, etc.), you only need white PETG (for the first layer) and one color change at the beginning of the second layer to brown PETG. For the screens with drawings, you need white for the first layer, black for the second layer, and brown for the third layer onwards.
 
 When changing the colors have some tweezers handy because the printer will often drip some filament just before it starts printing the first layer with the new color so be ready to catch that.
 
