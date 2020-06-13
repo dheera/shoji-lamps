@@ -67,3 +67,15 @@ The Shoji panels are best inserted from the back. They should snap into place in
 Completed assembly.
 
 ![assembly6](/images/assembly6.jpg?raw=true "assembly6")
+
+The base can help you permanently fix the lantern to another structure. It includes two countersunk holes which you can use with M4 countersunk screws or wood screws to attach the base to another structure. The 5x5 grid of small holes is to attach custom lighting apparatus (such as a [Pixie](https://www.adafruit.com/product/2741?gclid=CjwKCAjw8pH3BRAXEiwA1pvMsWrrwynTwiJuy8XR8M9QZYSmhQSH30A35Pn7ieYhhXJjsoTgRMlOdBoCGucQAvD_BwE)) using M2.5 self-tapping plastic screws and an adapter that you have to design.
+
+![assembly7](/images/assembly7.jpg?raw=true "assembly7")
+
+After your base is setup with your lighting equipment and installed where you want it, set the rest of the lantern into the 4 holes for the feet, noting the direction of the triangular cutout.
+
+![assembly8](/images/assembly8.jpg?raw=true "assembly8")
+
+Insert the lock pins from the side and you're done.
+
+![assembly9](/images/assembly9.jpg?raw=true "assembly9")
