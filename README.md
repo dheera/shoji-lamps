@@ -18,7 +18,7 @@ These are the filaments I used, if you want to duplicate the look.
 
 # Printing the roof, bars, base, and lockpins
 
-These are all straightforward parts to print and presented no problem on my Prusa i3 MK3. The roof and bars are mandatory. The base is optional, and the lockpins attach the rest of the lamp to the base, so you don't need those if you aren't printing the base.
+These are all straightforward parts to print and presented no problem on my Prusa i3 MK3. The bars are the only required part for the lamp to stay together. It will hold together without the roof (although it may not look as nice), and the base is completely optional. The lockpins attach the rest of the lamp to the base, so you don't need those if you aren't printing the base.
 
 I **highly suggest** you set your fill angle to 0 degrees instead of 45 degrees, so that the topmost layer will print like wood grain (in PrusaSlicer: Print Settings -> Infill -> Advanced -> Fill angle). Make sure you rotate the print to the correct orientation.
 
