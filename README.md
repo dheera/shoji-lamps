@@ -1,6 +1,6 @@
 # 3D printable mini Shoji lamps
 
-These are mini lampshades in the [Shoji](https://en.wikipedia.org/wiki/Shoji) style that are fully 3D printable. They make use of some ancient joinery techniques to fit together like a puzzle and can be assembled with **no glue or screws**. I highly recommend you use PETG if you plan to use them outdoors, as PLA will disintegrate in the sunlight.
+These are mini lampshades in the [Shoji](https://en.wikipedia.org/wiki/Shoji) style that are fully 3D printable. They make use of some ancient joinery techniques to fit together like a puzzle and can be assembled with **no glue or screws**. I highly recommend you use PETG if you plan to use them outdoors. PLA just all-around sucks and will disintegrate in the sunlight.
 
 ![shoji0](/images/shoji0.jpg?raw=true "shoji0")
 
