@@ -16,6 +16,8 @@ for(i=[0:1:3]) {
     crossY();
 }
 
+
+
 module column() {
     difference() {
         cube_center([H1,H+7*H1,H1]);
@@ -26,12 +28,18 @@ module column() {
                 translate([H1/2-H1/4,H/2+3*H1-H1/4-H1-H1/2,0])
                 cube_center([H1/2,H1/2,H1]);
                 
+                translate([0,H/2+3*H1,H1-0.4])
+                scale([H1,H1/2,H1/2])
+                rotate([0,90,0]) 
+                triangle();
                 
-            translate([0,H/2+3*H1+H1/8,H1/2])
-            cube_center([H1,H1/4+0.1,H1]);
-            }
+                
+                translate([0,H/2+3.5*H1,H1-0.4])
+                cube_center([H1,H1,H1]);
             
-        }
+            
+        } }
+        
         rotate([90,0,0])
         rotate([0,0,45])
         cube([T*sqrt(2),T*sqrt(2),H+0.5],center=true);
@@ -41,15 +49,8 @@ module column() {
         rotate([0,0,45])
         cube([T*sqrt(2),T*sqrt(2),H+0.5],center=true);
         
-        /*
-        for(s=[-1:2:1])
-        scale([1,s,1])
-        translate([0,(H+6*H1)/2-4.5/2,H1/2])
-        rotate([90,0,0])
-        cylinder(d=5.2,h=4.5,center=true,$fn=32);
-        */
-        
     }
+    
     
 }
 
@@ -59,9 +60,9 @@ module crossX() {
         for(s=[-1:2:1]) {
             scale([1,s,1]) {
                 translate([H1/4,(W+3*H1)/2-H1/2-H1,0])
-                cube_center([H1/2,H1,H1]);
-                translate([0,(W+3*H1)/2-H1/2-H1,H1/2])
-                cube_center([H1,H1,H1/2]);
+                cube_center([H1/2+0.2,H1,H1]);
+                translate([0,(W+3*H1)/2-H1/2-H1,H1/2-0.2])
+                cube_center([H1,H1,H1]);
             }
         }
     }
@@ -76,7 +77,7 @@ module crossY() {
         for(s=[-1:2:1]) {
             scale([1,s,1]) {
                 translate([0,(W+3*H1)/2-H1/2-H1,0])
-                cube_center([H1,H1,H1]);
+                cube_center([H1,H1+0.2,H1]);
             }
         }
     }
@@ -94,4 +95,10 @@ module cube_center(dims,r=0) {
             cylinder(r=r,h=0.00001,$fn=32);
         }
     }
+}
+
+
+module triangle() {
+    linear_extrude(height = 1, center = true, convexity = 10, twist = 0)
+    polygon(points=[[0,0],[1,0],[0,1]]);
 }
