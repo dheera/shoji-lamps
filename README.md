@@ -27,6 +27,7 @@ I **highly suggest** you set your fill angle to 0 degrees instead of 45 degrees,
 # Printing the Shoji screens
 
 verticallines | grid | grid2 | traintrack
+:---:|:---:|:---:|:---:
 ![](/images/panel-verticallines.png?raw=true) | ![](/images/panel-grid.png?raw=true) | ![](/images/panel-grid2.png?raw=true) | ![](/images/panel-traintrack.png?raw=true)
 circlemodern | birds | bamboo | sakura
 ![](/images/panel-circlemodern.png?raw=true) | ![](/images/panel-birds.png?raw=true) | ![](/images/panel-bamboo.png?raw=true) | ![](/images/panel-sakura.png?raw=true)
