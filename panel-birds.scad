@@ -9,7 +9,6 @@ HR=12;
 
 color("white")
 backing();
-color("brown")
 theactualpanel();
 
 module backing() {
@@ -19,6 +18,7 @@ module backing() {
 module theactualpanel() {
     
     // the pointed edges that go into groove
+    color("brown")
     for(s=[-1:2:1])
         scale([s,1,1])
         translate([(W-H1)/2,0,])
@@ -33,6 +33,7 @@ module theactualpanel() {
             cube([3,H+1,3],center=true);
     }
     
+    color("brown")
     intersection() {
         // clips the following to dimensions just in case
         cube_center([W-H1,H,1.5]);
@@ -61,6 +62,7 @@ module theactualpanel() {
         }
     }
     
+            color("black")
             translate([-W/2+3,-H/2])
             linear_extrude(height=0.3)
             scale([.5,.5])

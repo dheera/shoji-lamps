@@ -46,25 +46,33 @@ module theactualpanel() {
                 cube_center([W-3*B,H-1.5*B,10]);
             }
             
-            for(x=[-W/7,0,W/7])
-            for(s=[-1,1])
-            scale([1,s,1]) {
-                translate([x,-H/2+4,0])
-                cube_center([T,8,1.5]);
-                
-                translate([0,H/2-8,0])
-                cube_center([W,T,1.5]);
-            }
+            translate([-W/2+14,0,0])
+            cube_center([T,H,1.5]);
+            
+            translate([W/2-14,0,0])
+            cube_center([T,H,1.5]);
+            
+            translate([0,-H/2+12,0])
+            cube_center([W,T,1.5]);
+            
+            translate([0,H/2-12,0])
+            cube_center([W,T,1.5]);
+            
             
         }
     }
     
+            color("black")
+            translate([-W/2+6,-H/2+8])
+            linear_extrude(height=0.45)
+            scale([.25,.25])
+            import("sakura-branch.svg");
     
-    color("black")
-    translate([-W/2-3,-H/2-2])
-    linear_extrude(height=0.3)
-    scale([.22,.22])
-    import("bamboo2.svg");
+            color("pink")
+            translate([-W/2+6,-H/2+8])
+            linear_extrude(height=0.3)
+            scale([.25,.25])
+            import("sakura-flowers.svg");
 }
 
 module cube_center(dims,r=0) {
@@ -80,4 +88,3 @@ module cube_center(dims,r=0) {
         }
     }
 }
-

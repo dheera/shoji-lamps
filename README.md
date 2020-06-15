@@ -26,6 +26,10 @@ I **highly suggest** you set your fill angle to 0 degrees instead of 45 degrees,
 
 # Printing the Shoji screens
 
+verticallines |  grid
+:------------:|:-------------:
+![](/images/panel-verticallines.png?raw=true)  |  ![](/images/panel-grid.png?raw=true)
+
 The Shoji screens require printing sequentially in multiple colors. You can do this with a single extruder setup and just change the color for different layer heights. Assuming you are using a layer height of 0.15mm, the white screen is just one single layer thick, drawings such as bamboo or birds are in the 2nd layer (black), and the rest of the layers going up from there comprise the "wooden" structures (brown).
 
 The trickiest part of printing the screens by far is making sure your bed level and Live Adjust Z is calibrated properly, since the white screen is only a single layer thick, so imperfections in your Z calibration will show. If you are using a Prusa, please use the 7x7 bed level correction mode present in more recent firmware as it works **much** better than 3x3.
