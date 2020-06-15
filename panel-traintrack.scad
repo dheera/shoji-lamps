@@ -45,7 +45,7 @@ module theactualpanel() {
                 cube_center([W-3*B,H-1.5*B,10]);
             }
             
-            for(x=[-20:5:20])
+            for(x=[-18:4:18])
             translate([x,0,0])
             cube_center([T,30,1.5]);
                         
