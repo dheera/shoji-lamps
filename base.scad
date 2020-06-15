@@ -54,8 +54,8 @@ module base() {
         for(t=[-1,1])
         translate([0,s*W/2,0]) {
             cylinder(d=4,h=30,$fn=64);
-            translate([0,0,H1/2-5/2])
-            cylinder(d1=0,d2=9,h=5/2,$fn=64);
+            translate([0,0,H1/2-5])
+            cylinder(d1=0,d2=9,h=5,$fn=64);
         }
         
     }
