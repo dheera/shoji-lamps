@@ -46,32 +46,35 @@ module theactualpanel() {
                 cube_center([W-3*B,H-1.5*B,10]);
             }
             
-            translate([-W/2+14,0,0])
+            
+            
+            translate([-W/2+10,0,0])
             cube_center([T,H,1.5]);
             
-            translate([W/2-14,0,0])
+            translate([W/2-10,0,0])
             cube_center([T,H,1.5]);
             
-            translate([0,-H/2+12,0])
+            translate([0,-H/2+8,0])
             cube_center([W,T,1.5]);
             
-            translate([0,H/2-12,0])
+            translate([0,H/2-8,0])
             cube_center([W,T,1.5]);
+            
             
             
         }
     }
     
             color("black")
-            translate([-W/2+6,-H/2+8])
+            translate([-W/2+11,-H/2+8])
             linear_extrude(height=0.45)
-            scale([.25,.25])
+            scale([.21,.21])
             import("sakura-branch.svg");
     
             color("pink")
-            translate([-W/2+6,-H/2+8])
+            translate([-W/2+11,-H/2+8])
             linear_extrude(height=0.3)
-            scale([.25,.25])
+            scale([.21,.21])
             import("sakura-flowers.svg");
 }
 
