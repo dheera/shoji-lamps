@@ -43,6 +43,8 @@ For the screens with drawings, you need 3 colors (first layer = white, second la
 
 The "sakura" screen requires 4 colors (first layer = white, second layer = pink, third layer = black, fourth layer onwards = brown).
 
+The "fuji" screen requires 5 colors (white, grey, red, black, brown in that order).
+
 When changing the colors have some tweezers handy because the printer will often drip some filament just before it starts printing the first layer with the new color so be ready to catch that.
 
 ![multicolor](/images/multicolor.png?raw=true "multicolor")
