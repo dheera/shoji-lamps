@@ -35,13 +35,13 @@ traintrack | circlemodern | fuji
 birds | bamboo | sakura
 ![](/images/panel-birds.png?raw=true) | ![](/images/panel-bamboo.png?raw=true) | ![](/images/panel-sakura.png?raw=true)
 
-The Shoji screens require printing sequentially in multiple colors. You can do this with a single extruder setup and just change the color for different layer heights. Assuming you are using a layer height of 0.15mm, the white screen is just one single layer thick, drawings such as bamboo or birds are in the 2nd layer (black), and the rest of the layers going up from there comprise the "wooden" structures (brown).
+The Shoji screens require printing sequentially in multiple colors. You can do this with a single extruder setup and just change the color for different layer heights. Assuming you are using a layer height of 0.15mm, the white screen is just one single layer thick and the rest of the layers going up from there comprise the "wooden" structures (brown). Those that have drawings have them inserted at the 2nd-4th layers.
 
 The trickiest part of printing the screens by far is making sure your bed level and Live Adjust Z is calibrated properly, since the white screen is only a single layer thick, so imperfections in your Z calibration will show. If you are using a Prusa, please use the 7x7 bed level correction mode present in more recent firmware as it works **much** better than 3x3.
 
 For the color changes, use PrusaSlicer 2.2.0 or later which allows you to insert a M600 color change code in the sliced layer view. For the screens that have no drawings (i.e. no birds, bamboo, etc.), you only need white PETG (for the first layer) and one color change at the beginning of the second layer to brown PETG.
 
-For the screens with drawings, you need 3 colors (first layer = white, second layer = black, third layer onwards = brown).
+For the "birds" and "bamboo" screens you need 3 colors (first layer = white, second layer = black, third layer onwards = brown).
 
 The "sakura" screen requires 4 colors (first layer = white, second layer = red or pink, third layer = black, fourth layer onwards = brown).
 
