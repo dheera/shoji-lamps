@@ -41,7 +41,7 @@ For the color changes, use PrusaSlicer 2.2.0 or later which allows you to insert
 
 For the screens with drawings, you need 3 colors (first layer = white, second layer = black, third layer onwards = brown).
 
-The "sakura" screen requires 4 colors (first layer = white, second layer = pink, third layer = black, fourth layer onwards = brown).
+The "sakura" screen requires 4 colors (first layer = white, second layer = red or pink, third layer = black, fourth layer onwards = brown).
 
 The "fuji" screen requires 5 colors (white, grey, red, black, brown in that order).
 
