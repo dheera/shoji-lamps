@@ -51,6 +51,8 @@ When changing the colors have some tweezers handy because the printer will often
 
 ![multicolor](/images/multicolor.png?raw=true "multicolor")
 
+![panel-sakura-process](/images/panel-sakura-process.png?raw=true "panel-sakura-process")
+
 # Assembly
 
 The assembly of these lanterns uses puzzle joints and needs no glue or screws.
