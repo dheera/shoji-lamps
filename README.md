@@ -51,7 +51,7 @@ When changing the colors have some tweezers handy because the printer will often
 
 ![multicolor](/images/multicolor.png?raw=true "multicolor")
 
-![panel-sakura-process](/images/panel-sakura-process.png?raw=true "panel-sakura-process")
+![panel-sakura-process](/images/panel-sakura-process.jpg?raw=true "panel-sakura-process")
 
 # Assembly
 
