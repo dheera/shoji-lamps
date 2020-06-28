@@ -5,6 +5,7 @@ These are mini lampshades in the [Shoji](https://en.wikipedia.org/wiki/Shoji) st
 ![shoji3](/images/shoji3.jpg?raw=true "shoji3")
 ![shoji1](/images/shoji1.jpg?raw=true "shoji1")
 ![shoji2](/images/shoji2.jpg?raw=true "shoji2")
+![shoji4](/images/shoji4.jpg?raw=true "shoji4")
 
 # Lighting
 
