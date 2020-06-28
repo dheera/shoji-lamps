@@ -13,6 +13,8 @@ You have multiple options for lighting. The simplest is to skip printing the bas
 
 I used [Adafruit Pixies](https://www.adafruit.com/product/2741) which have an awkward PCB design but work extremely well for this lamp. Since my lamps are placed outdoors, I used silicone conformal coating and MR30 connectors (with a little extra E6000 to seal them) to wire together a string of the lamps that are powered from a power supply and microcontroller indoors.
 
+![pixie](/images/pixie.jpg?raw=true "pixie")
+
 # Filaments
 
 These are the filaments I used, if you want to duplicate the look.
