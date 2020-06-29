@@ -7,6 +7,10 @@ These are mini lampshades in the [Shoji](https://en.wikipedia.org/wiki/Shoji) st
 ![shoji2](/images/shoji2.jpg?raw=true "shoji2")
 ![shoji4](/images/shoji4.jpg?raw=true "shoji4")
 
+# Equipment
+
+I used a Prusa i3 MK3 for this project. You'll also want to make sure your firmware is up-to-date, and that you have the latest PrusaSlicer 2.2.0 which inserting color changes mid-print (required for the Shoji screens).
+
 # Filaments
 
 These are the filaments I used, if you want to duplicate the look. I highly recommend you use PETG or ABS if you plan to use them outdoors. (PLA just all-around sucks, will disintegrate in the sunlight, and is a bad choice for outdoor projects. It may also not hold the joints together well.)
