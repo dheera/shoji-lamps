@@ -7,14 +7,6 @@ These are mini lampshades in the [Shoji](https://en.wikipedia.org/wiki/Shoji) st
 ![shoji2](/images/shoji2.jpg?raw=true "shoji2")
 ![shoji4](/images/shoji4.jpg?raw=true "shoji4")
 
-# Lighting
-
-You have multiple options for lighting. The simplest is to skip printing the base (it will hold together perfectly well without it) and just place the lamp over an electronic candle. (Don't use a real candle as your plastic is likely to melt, or worse, catch fire.) You can also make your own elaborate lighting setup -- the included base has a 5x5 grid of 10mm-spaced holes that you can use to screw in your PCB or other lighting design using M2.5 self-tapping plastic screws.
-
-I used [Adafruit Pixies](https://www.adafruit.com/product/2741) which have an awkward PCB design but work extremely well for this lamp. Since my lamps are placed outdoors, I used silicone conformal coating and MR30 connectors (with a little extra E6000 to seal them) to wire together a string of the lamps that are powered from a power supply and microcontroller indoors.
-
-![pixie](/images/pixie.jpg?raw=true "pixie")
-
 # Filaments
 
 These are the filaments I used, if you want to duplicate the look.
@@ -102,3 +94,12 @@ After your base is setup with your lighting equipment and installed where you wa
 Insert the lock pins from the side and you're done.
 
 ![assembly9](/images/assembly9.jpg?raw=true "assembly9")
+
+# Lighting
+
+You have multiple options for lighting. The simplest is to skip printing the base (it will hold together perfectly well without it) and just place the lamp over an electronic candle. (Don't use a real candle as your plastic is likely to melt, or worse, catch fire.) You can also make your own elaborate lighting setup -- the included base has a 5x5 grid of 10mm-spaced holes that you can use to screw in your PCB or other lighting design using M2.5 self-tapping plastic screws.
+
+I used [Adafruit Pixies](https://www.adafruit.com/product/2741) which have an awkward PCB design but work extremely well for this lamp. Since my lamps are placed outdoors, I used silicone conformal coating and MR30 connectors (with a little extra E6000 to seal them) to wire together a string of the lamps that are powered from a power supply and microcontroller indoors.
+
+![pixie](/images/pixie.jpg?raw=true "pixie")
+
