@@ -81,7 +81,7 @@ Do the exact same for the bottom part of the lantern as well, and the structure 
 
 ![assembly4](/images/assembly4.jpg?raw=true "assembly4")
 
-The Shoji panels are best inserted from the back. They should snap into place into the grooves on the Z bars.
+The Shoji panels are best inserted from the back. They should snap into place into the grooves on the Z bars. As long as you printed these in PETG or ABS they should tolerate the slight amount of flexing necessary to snap them into place.
 
 ![assembly5](/images/assembly5.jpg?raw=true "assembly5")
 
