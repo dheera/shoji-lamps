@@ -1,6 +1,6 @@
 # 3D printable mini Shoji lamps
 
-These are mini lampshades in the [Shoji](https://en.wikipedia.org/wiki/Shoji) style that are fully 3D printable. They make use of some ancient joinery techniques to fit together like a puzzle and can be assembled with **no glue or screws**. I highly recommend you use PETG if you plan to use them outdoors. PLA just all-around sucks and will disintegrate in the sunlight.
+These are mini lampshades in the [Shoji](https://en.wikipedia.org/wiki/Shoji) style that are fully 3D printable. They make use of some ancient joinery techniques to fit together like a puzzle and can be assembled with **no glue or screws**.
 
 ![shoji3](/images/shoji3.jpg?raw=true "shoji3")
 ![shoji1](/images/shoji1.jpg?raw=true "shoji1")
@@ -9,7 +9,7 @@ These are mini lampshades in the [Shoji](https://en.wikipedia.org/wiki/Shoji) st
 
 # Filaments
 
-These are the filaments I used, if you want to duplicate the look.
+These are the filaments I used, if you want to duplicate the look. I highly recommend you use PETG or ABS if you plan to use them outdoors. (PLA just all-around sucks, will disintegrate in the sunlight, and is a bad choice for outdoor projects. It may also not hold the joints together well.)
 
 * [3D Universe PETG, Medium Brown](https://shop3duniverse.com/products/3d-universe-petg-filament-1-75mm-750g). I found this Medium Brown shade to look very much like wood when viewed from a distance and if the 3D print striations are aligned correctly and with some light sanding after printing to remove the glossy sheen.
 * White PETG for the back of the screens. Any white PETG will do. I have had very good results with eSun PETG in general.
