@@ -9,7 +9,7 @@ These are mini lampshades in the [Shoji](https://en.wikipedia.org/wiki/Shoji) st
 
 # Equipment
 
-I used a Prusa i3 MK3 for this project. You'll also want to make sure your firmware is up-to-date, and that you have the latest PrusaSlicer 2.2.0 which inserting color changes mid-print (required for the Shoji screens).
+I used a Prusa i3 MK3 for this project. You'll also want to make sure your firmware is up-to-date, and that you have the latest PrusaSlicer 2.2.0 which can insert color changes mid-print (required for the Shoji screens).
 
 # Filaments
 
