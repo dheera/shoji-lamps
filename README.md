@@ -11,7 +11,7 @@ These are mini lampshades in the [Shoji](https://en.wikipedia.org/wiki/Shoji) st
 
 These are the filaments I used, if you want to duplicate the look.
 
-* [3D Universe PETG, Medium Brown](https://shop3duniverse.com/products/3d-universe-petg-filament-1-75mm-750g). I found this Medium Brown shade to look very much like wood when viewed from a distance and if the 3D print striations are aligned correctly.
+* [3D Universe PETG, Medium Brown](https://shop3duniverse.com/products/3d-universe-petg-filament-1-75mm-750g). I found this Medium Brown shade to look very much like wood when viewed from a distance and if the 3D print striations are aligned correctly and with some light sanding after printing to remove the glossy sheen.
 * White PETG for the back of the screens. Any white PETG will do. I have had very good results with eSun PETG in general.
 * Small amount of black PETG for the "birds" and "bamboo" screens.
 * Small amount of black and red PETG for the "sakura" screen.
