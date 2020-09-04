@@ -109,3 +109,8 @@ I used [Adafruit Pixies](https://www.adafruit.com/product/2741) which have an aw
 
 ![pixie](/images/pixie.jpg?raw=true "pixie")
 
+Another solution is to use G4 socket (available in any hardware store or online -- [Aliexpress](https://www.aliexpress.com/item/32812240653.html) or [Amazon](https://www.amazon.com/Goldwin-Connector-Ceramic-Adapter-Retrofit/dp/B071JXNZWK)). Print `base-g4.stl` file and use 4 M3x6mm screws and 2 [M3 stand-off (spacers)](https://www.aliexpress.com/item/33013920476.html) to mount G4 socket on top of the base.
+
+I used 5.5/2.2 mm barrel jack connector with 13 mm diameter to power G4 socket. voltage for the standard G4 light bulb is usually 12 V DC.
+
+![base-g4](/images/base-g4.jpg?raw=true "Base for G4 socket")
